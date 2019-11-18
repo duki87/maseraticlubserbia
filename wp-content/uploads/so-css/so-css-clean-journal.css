@@ -1,0 +1,63 @@
+.attachment-full.size-full.wp-post-image {
+  width: 60%;
+  padding: 0px;
+  margin: 0px;
+}
+
+#post-370.post-370.tribe_events.type-tribe_events.status-publish.has-post-thumbnail.hentry {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+}
+
+.vc_gitem-zone .vc-zone-link {
+  color: #ffffff;
+  width: 300px;
+  height: 180px;
+  padding: 200px;
+}
+
+.vc_gitem-is-link {
+  width: 300px;
+}
+
+h4 {
+  color: #1f4c80;
+  font-weight: 700;
+  font-style: normal;
+  font-family: arial;
+  font-size: 25px;
+}
+
+.vc_btn3.vc_btn3-color-juicy-pink.vc_btn3-style-flat:hover {
+  display: none;
+}
+
+.vc_btn3-container.vc_btn3-left {
+  display: none;
+}
+
+.site-description {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.clean-journal-nav-menu .sub-menu li a:hover {
+  background-color: #70aef5;
+}
+
+#tribe-bar-form input[type=text] {
+  z-index: 999;
+}
+
+#tribe-events-bar * {
+  z-index: 999;
+  display: none;
+}
+
+.nav-primary.search-enabled {
+  z-index: 500;
+}

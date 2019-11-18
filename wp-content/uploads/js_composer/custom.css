@@ -1,0 +1,271 @@
+#colophon {
+    position:absolute;
+}
+.custom-logo {
+    width:80px;
+    height:auto;
+    margin-top:-40px;
+}
+
+#masthead {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2989d8+0,00274d+100 */
+    background: #2989d8; /* Old browsers */
+    background: -moz-linear-gradient(top, #2989d8 0%, #00274d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #2989d8 0%,#00274d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #2989d8 0%,#00274d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', endColorstr='#00274d',GradientType=0 ); /* IE6-9 */
+    position:relative;
+    
+}
+
+.nav-primary {
+    background-color:#00274d;
+    -webkit-box-shadow: 0 -3px 10px 1px rgba(0,0,0,0.8);
+    -moz-box-shadow: 0 -3px 10px 1px rgba(0,0,0,0.8);
+    box-shadow:  0 -3px 10px 1px rgba(0,0,0,0.8);
+}
+
+.site-title {
+    font-family:'Cuprum', sans-serif;
+}
+
+.site-title a {
+    color:white;
+    text-shadow: 2px 2px #000000;
+}
+
+.clean-journal-nav-menu li {
+    font-family:arial;
+    font-weight:bold;
+}
+
+p.site-description{
+    margin-top:10px;
+    color:white;
+    font-family:arial;
+    font-size:16px;
+    font-style:italic;
+    font-weight:bold;
+}
+
+#rev_slider_1_1_wrapper  {
+    margin-top:-20px;
+}
+
+#social {
+   width:100%;
+   height:35px;
+   display:block;
+   right:30px;
+   top:0px;
+   position:absolute;
+   z-index:1000;
+}
+
+#social .soc-bar {
+    height:35px;
+    width:auto;
+    float:right;
+    margin-top:3px;
+    margin-left:10px;
+}
+
+
+#social .soc-bar:hover {
+    transform: scale(1.2);
+}
+
+.headLogo {
+    display:block;
+    float:right;
+    position:relative;
+}
+
+.headLogo img {
+    width:300px;
+    height:auto;
+}
+
+#main {
+    width:70%;
+}
+
+.maserati-content {
+    width:100%;
+}
+
+.maserati-text-title {
+    padding: 20px 0 0 0;
+}
+
+.maserati-text-title h1 {
+    font-family: 'Noticia Text', serif;
+    font-size:40px;
+    font-weight:bold;
+    
+}
+.maserati-text {
+    background-color:#E0E0E0;
+    padding:2%;
+    font-family: 'Cuprum', sans-serif;
+    font-size:20px;
+    text-align: justify;
+    line-height: normal;
+}
+
+.maserati-picture {
+    width:100%;
+    height:350px;
+    overflow:hidden;
+}
+
+.maserati-picture-gallery {
+    width:100%;
+    max-height:350px;
+    overflow:hidden;
+    position: relative;
+}
+
+.maserati-picture-gallery img {
+    height:auto;
+}
+
+
+.text-image {
+    float:right;
+    margin-left:20px;
+}
+
+.vc_custom_heading .vc_gitem-post-data .vc_gitem-post-data-source-post_excerpt {
+    display:none;
+}
+
+.column-hist {
+    width: 40%;
+    margin-left:5%;
+    dispay:inline-block;
+}
+
+
+#content {
+    margin-top:-20px !important;
+}
+
+.image-for-model{
+    position: absolute;
+    top:-65%;
+}
+
+.text-for-model{
+   position: absolute;
+   left: 0px;
+   bottom: 0px;
+   z-index: 1000;
+   background-color: rgba(0,0,0,0.5);
+   width:100%;
+   height:2em;
+   color: #FFFFFF;
+   font-weight: bold;
+   font-family: 'Cuprum', sans-serif;
+   font-size:1.875em;
+   padding-top:10px;
+   padding-left:10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .maserati-picture {
+      height:250px;
+      width:auto;  
+    }
+    .custom-logo {
+      width:80px;
+      height:auto;
+      margin-top:-10px;
+    }
+}  
+
+@media only screen and (max-width: 1000px) {
+    .headLogo {
+        margin-right: 180px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .maserati-picture {
+      height:220px;
+      width:auto;  
+    }
+    .custom-logo {
+      width:80px;
+      height:auto;
+      margin-top:-10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .headLogo {
+        margin-right: 120px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .maserati-picture-gallery {
+        height:150px;
+    }
+    .text-for-model {
+       height:40px; 
+       font-size:16px;
+       padding-top:5px;
+       padding-left:5px;
+    }
+    .headLogo {
+        display: none;
+    }
+    #site-header{
+        padding:10px;
+    }
+    #site-header .site-description {
+        color:white;
+        font-family:arial;
+        font-size:15px;
+        font-weight:bold;
+    }
+    .maserati-picture {
+      height:150px;
+      width:auto; 
+    }
+    #social .soc-bar {
+        height:28px;
+        width:auto;
+        margin-left:10px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+   .image-for-model{
+        position: absolute;
+        top:-25%;
+    }
+    .maserati-picture {
+      height:100px;
+      width:auto;  
+    }
+    
+    #social {
+       width:40%;
+       height:35px;
+       display:block;
+       right:5px;
+       top:0px;
+       position:absolute;
+       z-index:1000;
+       float:right;
+    }
+    
+    #social .soc-bar {
+        height:20px;
+        width:auto;
+        float:right;
+        margin-left:5px;
+    }
+}

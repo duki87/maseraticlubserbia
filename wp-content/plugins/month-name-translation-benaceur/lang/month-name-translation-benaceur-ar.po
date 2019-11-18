@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: month name translation benaceur v2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: Fri Apr 08 2016 00:13:13 GMT+0100\n"
+"Last-Translator: BENACEUR <mohamedmohamed42@yahoo.fr>\n"
+"Language-Team: \n"
+"Language: Arabic\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: ALGERIA\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Loco-Target-Locale: ar_AE"
+
+#. Name of the plugin
+msgid "month name translation benaceur"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://benaceur-php.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin allows you to edit and translate the names of the months ..."
+msgstr ""
+
+#. Author of the plugin
+msgid "benaceur"
+msgstr ""
+
+#: ../panel-page.php:7
+msgid "Month-Name-Translation-Benaceur"
+msgstr ""
+
+#: ../panel-page.php:38
+msgid "The names of months before modification:"
+msgstr "أسماء الشهور قبل التعديل:"
+
+#: ../panel-page.php:382
+msgid ""
+"<strong>Note:</strong> If you change the language of your site from one "
+"language to another be sure to reset the plugin settings (Reset all settings)"
+msgstr ""
+"<strong>ملاحظة:</strong> إذا قمت بتغيير لغة موقعك من لغة إلى أخرى فلا تنس أن "
+"تعيد تعيين الإعدادات الإفتراضية للإضافة (Reset)  "
+
+#: ../month-name-translation-benaceur.php:16 ../panel-page.php:8
+msgid "Settings"
+msgstr "إعدادات"
+
+#: ../month-name-translation-benaceur.php:136
+msgid "<strong>Core Control:</strong> Sorry, This plugin requires WordPress 3.0+"
+msgstr ""
+"<strong>توافق الإضافة:</strong> آسف, هذه الإضافة تتطلب النسخة الثالثة من "
+"الووردبريس فما فوق ووردبريس 3.0+"
+
+#: ../panel-page.php:20
+msgid "Enable plugin"
+msgstr "تفعيل الإضافة"
+
+#: ../panel-page.php:143
+msgid "Enter the new names of the months of your choice (in order):"
+msgstr "أدخل أسماء الشهور الجديدة التي تختارها (بالترتيب):"
+
+#: ../panel-page.php:219
+msgid "Enable editing names of the months"
+msgstr "تمكين تحرير أسماء الشهور"
+
+#: ../panel-page.php:254
+msgid "The current names of months in your site"
+msgstr "أسماء الشهور كما هي حاليا في موقعك"
+
+#: ../panel-page.php:315
+msgid "Disable in admin panel"
+msgstr "تعطيل في لوحة الإدارة"
+
+#: ../panel-page.php:326
+msgid "Disable in site interface"
+msgstr "تعطيل في واجهة الموقع"
+
+#: ../panel-page.php:335
+msgid ""
+"Remove all settings and data of the plugin from database when the plugin is "
+"disabled"
+msgstr "حذف جميع إعدادات وبيانات الإضافة من قاعدة البيانات عند تعطيلها"
+
+#: ../panel-page.php:342
+msgid "Do not delete"
+msgstr "لا تحذف"
+
+#: ../panel-page.php:356
+msgid "Hide the plugin rating icon"
+msgstr "إخفاء أيقونة تقييم الإضافة"
+
+#: ../panel-page.php:373
+msgid "Reset all settings"
+msgstr "إعادة تعيين جميع الإعدادات Reset"
+
+#: ../panel-page.php:378
+msgid "Do not forget to rate the plugin"
+msgstr "لا تنس تقييم الإضافة"
+
+#: ../panel-page.php:392 ../panel-page.php:398
+msgid "My plugins"
+msgstr "إضافاتي My plugins"
+
+#: ../panel-page.php:397 ../panel-page.php:401
+msgid "Hide this list"
+msgstr "إخفاء القائمة"
+
+#: ../includes/notices-mntb.php:17
+msgid ""
+"After this update Click on ctl+F5 to purge the browser cache ( For those who "
+"have installed the previous version(s) only )"
+msgstr ""
+"بعد هذا التحديث اضغط على ctl+F5 لتفريغ كاش المتصفح ( بالنسبة للذين قاموا "
+"بتنصيب الإصدار أو الإصدارات السابقة فقط )"
